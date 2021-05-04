@@ -1,0 +1,112 @@
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+.nav .nav-link, .breadcrumb-item{
+  font-weight: 600 !important;
+}
+
+.nav .nav-link:hover {
+  color: rgba(0,0,0,0.6);
+  transition: .3s linear;
+}
+
+.cart_body_lg, .cart_body_sm{
+  height: 80px !important;
+  overflow: hidden !important;
+}
+
+.nav.nav-pills .nav-item .nav-link.active {
+  background-color: #212529;
+  color: #fff;
+}
+
+.nav.nav-pills .nav-item .nav-link{
+  color: #212529;
+}
+
+.nav.nav-pills .nav-item .nav-link.active:hover{
+  color: #fff;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100;1,300&display=swap');
+
+* {
+  font-family: 'Montserrat' !important;
+}
+
+#spinner{
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle_btn{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #212529;
+  border-radius: 50%;
+  box-shadow: 0 0px 4px 1px #212529;
+  cursor: pointer;
+  line-height: 60px;
+  font-weight: 600 !important;
+  text-align: center;
+}
+
+.toggle_btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.toggle_btn:hover{
+  background-color: #212529;
+  color: #fff;
+  transition: .3s ease-out;
+  border: 2px solid #fff;
+}
+
+.toggle_btn:hover a{
+  color: #fff;
+}
